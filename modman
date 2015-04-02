@@ -1,0 +1,5 @@
+code                    app/code/community/MaxBucknell/AMDJS/
+frontend/layout/*       app/design/frontend/base/default/layout/
+frontend/template/*     app/design/frontend/base/default/template/maxbucknell/amdjs/
+MaxBucknell_AMDJS.xml   app/etc/modules/
+bower.json              js/maxbucknell/amdjs/lib/
