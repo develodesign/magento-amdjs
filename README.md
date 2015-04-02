@@ -10,6 +10,21 @@ It's certainly possible to let require.js take care of module loading, but in a 
 
 The r.js optimiser does a great job of this, and this module is designed to replace it. The problem with the optimiser is that it doesn't allow very easy compilation with Magento projects. One is reduced to parsing the layouts by hand and hoping it's correct. This does it all automatically.
 
+## Installation
+
+Installation can be done using Modman.
+
+### With Symlinks
+
+1. Initialise modman  modman init 
+2. Install this module  modman clone https://github.com/develodesign/magento-amdjs.git
+
+### Without Symlinks 
+
+3. Follow steps one and two above. 
+4. Copy the module to the correct Magento directories.  ```modman deploy magento-amdjs --copy ```
+
+
 ## How it works
 
 You place your modules in a directory, and write as if you were using require.js with no optimisation.
